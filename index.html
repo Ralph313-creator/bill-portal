@@ -1,91 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Payment Due</title>
-		<style>
-			body {
-				font-family: Arial, sans-serif;
-				max-width: 600px;
-				margin: 20px auto;
-				padding: 20px;
-				background-color: #f8f8f8;
-				border: 1px solid #ddd;
-				border-radius: 5px;
-			}
-
-			h1 {
-				color: #333;
-				text-align: center; /* Center the heading */
-			}
-
-			p {
-				color: #555;
-			}
-
-			.contact-info {
-				margin-top: 20px;
-			}
-
-			.contact-info p {
-				margin: 5px 0;
-			}
-
-			.thank-you {
-				margin-top: 20px;
-				font-weight: bold;
-			}
-
-			img {
-				display: block; /* Center the image */
-				margin: auto;
-				max-width: 100%; /* Make the image responsive */
-				height: auto;
-			}
-		</style>
-	</head>
-
-	<body>
-		<h1 style="color: red">Payment Due</h1>
-
-		<p>Dear [Client],</p>
-
-		<p>
-			This is a friendly reminder that your Internet subscription is
-			currently on hold due to an outstanding monthly payment. We kindly
-			request you to settle the due amount as soon as possible to avoid any
-			disruptions to your services.
-		</p>
-
-		<p>
-			If you believe this is a mistake or if you have already made the
-			payment, please inform us immediately by contacting us at
-			<strong>09501061958</strong> or reaching out to <strong>Rap2x</strong>.
-			Your prompt attention to this matter is highly appreciated.
-		</p>
-
-		<p>
-			As a gesture of goodwill, we are offering an option to extend your
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internet PastDue</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+</head>
+<body>
+    <div class="header">
+        <h1><i class="fas fa-wifi icon"></i><i class="fas fa-times icon" style="color: #e74c3c; margin-left: -10px;"></i>Payment Due</h1>
+        <p>Dear Valued Customer,</p>
+        <p>Your internet connectivity subscription is due. Please ensure payment is made on time to continue enjoying uninterrupted services, or if this happens by mistake please inform us immediately!</p>
+			<img src="img.png" alt="Company Logo" />		
+        <div style="background: #e8f6ef; padding: 15px; border-radius: 8px; margin-top: 15px;">
+            <p style="color: #16a085; margin: 0;">
+                <i class="fas fa-calendar-check icon"></i>
+                <strong>Payment Extension:</strong> As a gesture of goodwill, we are offering an option to extend your
 			subscription by up to 15 days if there is no balance from the previous
 			month. This provides you with some flexibility while ensuring
 			uninterrupted service.
-		</p>
+            </p>
+        </div>
+    </div>
 
-		<div class="contact-info">
-			<p>You can contact us through:</p>
-			<p>Phone: <strong>09501061958</strong></p>
-			<p>Contact Person: <strong>Rap2x</strong></p>
-		</div>
+    <div class="payment-details">
+        <h2><i class="fas fa-money-bill-wave icon"></i>Payment Instructions</h2>
+        
+        <div style="display: flex; gap: 20px; margin-top: 15px;">
+            <div style="flex: 1;">
+                <h3>GCash Payment</h3>
+                <p><i class="fas fa-mobile-alt icon"></i><strong>GCash Number:</strong> 0950 106 1958</p>
+                <p><i class="fas fa-user icon"></i><strong>Account Name:</strong> Ralph O.</p>
+                <p><i class="fas fa-user icon"></i>or find <strong>Rap2x Ocba</strong></p>
+				<div style="background: #fff8e1; padding: 15px; border-radius: 5px; margin-top: 15px;">
+                    <p style="color: #d35400; margin: 0;">
+                        <i class="fas fa-comment-dots icon"></i>
+                        <strong>Please include in GCash message:</strong><br>
+                        [Your Full Name], [Payment for the month]</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
 
-		<img src="img1.png" alt="Company Logo" />
+    <div class="contact-info">
+        <h2><i class="fas fa-phone-alt icon"></i>Contact Information</h2>
+        <p><i class="fas fa-phone icon"></i><strong>Phone:</strong> 0976 026 7067</p>
+        <p><i class="fas fa-envelope icon"></i><strong>Email:</strong> rap.ocba@gmail.com</p>
+    </div>
 
-		<p class="thank-you">
-			Thank you for your cooperation, and we look forward to resolving this
-			matter promptly.
-		</p>
-
-		<p>Best regards,</p>
-		<p>Rappid ISP</p>
-	</body>
+    <div class="warning">
+        <h3><i class="fas fa-exclamation-triangle icon"></i>Security Reminders</h3>
+        <ul style="list-style-type: none; padding-left: 0;">
+            <li><i class="fas fa-check-circle" style="color: #27ae60; margin-right: 8px;"></i>Always verify recipient details</li>
+            <li><i class="fas fa-check-circle" style="color: #27ae60; margin-right: 8px;"></i>Keep transaction receipts</li>
+            <li><i class="fas fa-check-circle" style="color: #27ae60; margin-right: 8px;"></i>Never share OTP or MPIN</li>
+        </ul>
+    </div>
+</body>
 </html>
